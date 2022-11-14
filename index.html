@@ -6,27 +6,19 @@
     <title>Avengers Assemble</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/main.css'>
     <script src='main.js'></script>
 </head>
 <body>
-  
-
-
-
-
-
-
-
-
 
 
 
     <!-- Start Navbar -->
-
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="https://www.marvel.com/teams-and-groups/avengers" target="_blank">
+            <img src="/assets/img/LogoLetra.png" alt="Logo" id="logo">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,21 +28,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link active" aria-current="page" href="#suscribe">Suscribe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="#videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -60,9 +47,125 @@
           </div>
         </div>
       </nav>
-
-
     <!-- End Navbar -->
+
+    <!-- Start Header -->
+      <div class="contenedor"> <!-- I use the name "contenedor" to avoid problems with Bootstrap that already uses "container" -->
+        <img src="./assets/img/Base-de-los-vengadores-y-el-Quinjet.jpg" alt="Base" id="base">
+        <div id="overlay"></div>
+        <div class="ultron">
+          <img src="./assets/img/pngwing.com.png" alt="ultron" id="ultro">
+        </div>
+        <div class="texto">
+          <p> The Base is under attack!!!</p>
+          <button type="button" class="btn btn-danger">Join us</button>
+        </div>
+      </div>
+    <!-- End Header-->
+
+    <!-- Start suscribe -->
+    <section id="suscribe" class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input type="text" class="form-control" id="name" placeholder="Enter Agent Name" aria-describedby="NameOfAgent">
+            
+          </div>
+          <div class="col-md-4">
+            <input type="email" class="form-control" id="email" placeholder="Enter Agent Email" aria-describedby="emailHelp">
+
+          </div>
+          <div class="col-md-4 d-grid gap-2">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <!-- End suscribe -->
+
+    <!-- Start Videos-->
+    <section id="videos" class="py-5">
+      <h2 class="text-center display-3">Legendary Battles</h2>
+      <hr>
+      <div class="container">
+        <div class="row">
+
+          <!-- Inicio tarjeta #1 -->
+          <div class="col-md-3">
+            <div class="card border-secondary">
+              <div class="card-header">
+                <h4>New York Battle</h4>
+              </div>
+              <div class="card-body">
+                <p style="margin-bottom: 1.8rem;">The Battle of New York, dubbed the Incident by local citizens, was a major and decisive battle during the Chitauri Invasion in Manhattan, New York City, in which the Avengers were able to defeat Loki and his Chitauri army and thwart his plans of subjugating Earth.</p>
+                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/NFCmzN_Uzo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer">
+                You can join our heroes
+              </div>
+            </div>
+          </div>
+          <!-- Fin tarjeta -->
+
+          <!-- Inicio tarjeta #2 -->
+          <div class="col-md-3">
+            <div class="card border-secondary">
+              <div class="card-header">
+                <h4>Civil War</h4>
+              </div>
+              <div class="card-body">
+                <p style="margin-bottom: 1.8rem;" style="">Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. The new status quo deeply divides members of the team. Captain America believes superheroes should remain free to defend humanity without government interference. Iron Man sharply disagrees and supports oversight. As the debate escalates into an all-out feud, Black Widow and Hawkeye must pick a side.</p>
+                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/cfVY9wLKltA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer">
+                Choose a side
+              </div>
+            </div>
+          </div>
+          <!-- Fin tarjeta -->
+          <!-- Inicio tarjeta -->
+          <div class="col-md-3">
+            <div class="card border-secondary">
+              <div class="card-header">
+                <h4>Firts Battle against Thanos</h4>
+              </div>
+              <div class="card-body">
+                <p style="margin-bottom: 1.8rem;">Firts Battle that the Avengers looses against Thanos.</p>
+                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/IS1quk3KFb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer">
+                Run or Fight
+              </div>
+            </div>
+          </div>
+          <!-- Fin tarjeta -->
+          <!-- Inicio tarjeta -->
+          <div class="col-md-3">
+            <div class="card border-secondary">
+              <div class="card-header">
+                <h4>The Battle that ends Everything</h4>
+              </div>
+              <div class="card-body">
+                <p style="margin-bottom: 1.8rem;">The most amazing battle of all.</p>
+                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/rrGMENN1iaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer">
+                Let there be fire
+              </div>
+            </div>
+          </div>
+          <!-- Fin tarjeta -->
+
+
+        </div>
+      </div>
+
+    </section>        
+
+
+    <!-- End Videos-->
+
 
 
 
