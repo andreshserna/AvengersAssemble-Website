@@ -1,0 +1,43 @@
+#logo {
+    width: 4rem;
+    height: auto;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns:  repeat(8, 1fr);
+    grid-template-rows: repeat(8,auto);    
+}
+
+#base {
+    width: 98.8vw;
+    grid-row: 1/9;
+    grid-column: 1/9;
+}
+
+#overlay {
+    grid-column: 1/9;
+    grid-row: 1/9;
+    background-color: navy;
+    opacity: 0.66;
+}
+
+.ultron{
+    z-index: 7;
+    grid-column: 2/4;
+    grid-row: 3/8;
+    width: 27vw;
+}
+
+#ultro {
+    width: 100%;
+}
+
+.texto {
+    z-index: 7;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    grid-column: 6/10;
+    grid-row: 4/6;
+}
