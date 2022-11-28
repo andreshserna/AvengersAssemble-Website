@@ -42,6 +42,19 @@
     grid-row: 4/6;
 }
 
-#team{
+#team, footer{
     background-color: navy;
+}
+
+#team h2{
+    color: silver;
+}
+
+footer p{
+    color: white;
+}
+
+footer i{
+    background-color: antiquewhite;
+
 }
