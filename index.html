@@ -1,68 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Avengers Assemble</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
     <!-- Link to use bootstrap on this project -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/main.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://www.marvel.com/teams-and-groups/avengers" target="_blank">
-            <img src="./assets/img/LogoLetra.png" alt="Logo" id="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#suscribe">Suscribe</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#videos">Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="https://www.marvel.com/teams-and-groups/avengers"
+          target="_blank"
+        >
+          <img src="./assets/img/LogoLetra.png" alt="Logo" id="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#suscribe"
+                >Suscribe</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- End Navbar -->
 
     <!-- Start Header -->
-      <div class="contenedor"> <!-- I use the name "contenedor" to avoid problems with Bootstrap that already uses "container" -->
-        <img src="./assets/img/Base-de-los-vengadores-y-el-Quinjet.jpg" alt="Base" id="base">
-        <div id="overlay"></div>
-        <div class="ultron">
-          <img src="./assets/img/pngwing.com.png" alt="ultron" id="ultro">
-        </div>
-        <div class="texto">
-          <p> The Base is under attack!!!</p>
-          <button type="button" class="btn btn-danger">Join us</button>
-        </div>
+    <div class="contenedor">
+      <!-- I use the name "contenedor" to avoid problems with Bootstrap that already uses "container" -->
+      <img
+        src="./assets/img/Base-de-los-vengadores-y-el-Quinjet.jpg"
+        alt="Base"
+        id="base"
+      />
+      <div id="overlay"></div>
+      <div class="ultron">
+        <img src="./assets/img/pngwing.com.png" alt="ultron" id="ultro" />
       </div>
+      <!-- ... Tu código existente ... -->
+
+      <div class="texto">
+        <p>The Base is under attack!!!</p>
+        <button type="button" class="btn btn-danger" id="joinBtn">
+          Join us
+        </button>
+      </div>
+    </div>
     <!-- End Header-->
 
     <!-- Start suscribe -->
@@ -70,18 +111,28 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <input type="text" class="form-control" id="name" placeholder="Enter Agent Name" aria-describedby="NameOfAgent">
-            
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter Agent Name"
+              aria-describedby="NameOfAgent"
+            />
           </div>
           <div class="col-md-4">
-            <input type="email" class="form-control" id="email" placeholder="Enter Agent Email" aria-describedby="emailHelp">
-
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter Agent Email"
+              aria-describedby="emailHelp"
+            />
           </div>
           <div class="col-md-4 d-grid gap-2">
             <button type="button" class="btn btn-primary">Subscribe</button>
           </div>
         </div>
-      </div>      
+      </div>
     </section>
 
     <!-- End suscribe -->
@@ -89,10 +140,9 @@
     <!-- Start Videos-->
     <section id="videos" class="py-5">
       <h2 class="text-center display-3">Legendary Battles</h2>
-      <hr>
+      <hr />
       <div class="container">
         <div class="row">
-
           <!-- Start card #1 -->
           <div class="col-md-3">
             <div class="card border-secondary">
@@ -100,12 +150,24 @@
                 <h4>New York Battle</h4>
               </div>
               <div class="card-body">
-                <p style="margin-bottom: 1.8rem;">The Battle of New York, dubbed the Incident by local citizens, was a major and decisive battle during the Chitauri Invasion in Manhattan, New York City, in which the Avengers were able to defeat Loki and his Chitauri army and thwart his plans of subjugating Earth.</p>
-                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/NFCmzN_Uzo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="margin-bottom: 1.8rem">
+                  The Battle of New York, dubbed the Incident by local citizens,
+                  was a major and decisive battle during the Chitauri Invasion
+                  in Manhattan, New York City, in which the Avengers were able
+                  to defeat Loki and his Chitauri army and thwart his plans of
+                  subjugating Earth.
+                </p>
+                <iframe
+                  width="100%"
+                  height="200vw"
+                  src="https://www.youtube.com/embed/NFCmzN_Uzo4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
-              <div class="card-footer">
-                You can join our heroes
-              </div>
+              <div class="card-footer">You can join our heroes</div>
             </div>
           </div>
           <!-- Card End #1 -->
@@ -117,12 +179,27 @@
                 <h4>Civil War</h4>
               </div>
               <div class="card-body">
-                <p style="margin-bottom: 1.8rem;" style="">Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. The new status quo deeply divides members of the team. Captain America believes superheroes should remain free to defend humanity without government interference. Iron Man sharply disagrees and supports oversight. As the debate escalates into an all-out feud, Black Widow and Hawkeye must pick a side.</p>
-                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/6aWYmFCRsEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="margin-bottom: 1.8rem" style="">
+                  Political pressure mounts to install a system of
+                  accountability when the actions of the Avengers lead to
+                  collateral damage. The new status quo deeply divides members
+                  of the team. Captain America believes superheroes should
+                  remain free to defend humanity without government
+                  interference. Iron Man sharply disagrees and supports
+                  oversight. As the debate escalates into an all-out feud, Black
+                  Widow and Hawkeye must pick a side.
+                </p>
+                <iframe
+                  width="100%"
+                  height="200vw"
+                  src="https://www.youtube.com/embed/6aWYmFCRsEI"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
-              <div class="card-footer">
-                Choose a side
-              </div>
+              <div class="card-footer">Choose a side</div>
             </div>
           </div>
           <!-- Card End #2 -->
@@ -134,12 +211,20 @@
                 <h4>Firts Battle against Thanos</h4>
               </div>
               <div class="card-body">
-                <p style="margin-bottom: 1.8rem;">Firts Battle that the Avengers looses against Thanos.</p>
-                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/IS1quk3KFb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="margin-bottom: 1.8rem">
+                  Firts Battle that the Avengers looses against Thanos.
+                </p>
+                <iframe
+                  width="100%"
+                  height="200vw"
+                  src="https://www.youtube.com/embed/IS1quk3KFb0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
-              <div class="card-footer">
-                Run or Fight
-              </div>
+              <div class="card-footer">Run or Fight</div>
             </div>
           </div>
           <!-- Card End #3 -->
@@ -151,58 +236,89 @@
                 <h4>The Battle that ends Everything</h4>
               </div>
               <div class="card-body">
-                <p style="margin-bottom: 1.8rem;">The most amazing battle of all.</p>
-                <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/rrGMENN1iaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="margin-bottom: 1.8rem">
+                  The most amazing battle of all.
+                </p>
+                <iframe
+                  width="100%"
+                  height="200vw"
+                  src="https://www.youtube.com/embed/rrGMENN1iaY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
-              <div class="card-footer">
-                Let there be fire
-              </div>
+              <div class="card-footer">Let there be fire</div>
             </div>
           </div>
           <!-- Card End #4 -->
-
         </div>
       </div>
     </section>
     <!-- End Videos-->
-    
+
     <!-- Team Section-->
     <section id="team" class="text-center py-5">
       <div class="container">
         <h2 class="text white display-4">Prime Members</h2>
-        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, minus sed dignissimos illo illum voluptatum? Voluptates tenetur autem, hic, velit rem mollitia officiis inventore, distinctio deserunt libero modi qui similique.</p>
+        <p class="text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, minus
+          sed dignissimos illo illum voluptatum? Voluptates tenetur autem, hic,
+          velit rem mollitia officiis inventore, distinctio deserunt libero modi
+          qui similique.
+        </p>
         <div class="row">
-
           <!-- Personaje 1 -->
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./assets/img/captainA.png" class="img-fluid rounded-circle w-50" alt="captain">
+                <img
+                  src="./assets/img/captainA.png"
+                  class="img-fluid rounded-circle w-50"
+                  alt="captain"
+                />
                 <h4>Captain America</h4>
                 <h5>Steve Rogers</h5>
                 <div class="d-flex flex-row justify-content-center gap-3">
-                  <div >
-                    <a href="https://www.facebook.com/CaptainAmerica/" target="_blank">
+                  <div>
+                    <a
+                      href="https://www.facebook.com/CaptainAmerica/"
+                      target="_blank"
+                    >
                       <i class="bi bi-facebook"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://twitter.com/captainamerica?lang=en" target="_blank">
+                    <a
+                      href="https://twitter.com/captainamerica?lang=en"
+                      target="_blank"
+                    >
                       <i class="bi bi-twitter"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.instagram.com/official_captainamerica/?hl=es-la" target="_blank">
-                    <i class="bi bi-instagram"></i>
+                    <a
+                      href="https://www.instagram.com/official_captainamerica/?hl=es-la"
+                      target="_blank"
+                    >
+                      <i class="bi bi-instagram"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.marvel.com/characters/captain-america-steve-rogers" ><img src="./assets/img/shielddeflect.png" alt="icon-cap" width="20rem" height="auto">
+                    <a
+                      href="https://www.marvel.com/characters/captain-america-steve-rogers"
+                      ><img
+                        src="./assets/img/shielddeflect.png"
+                        alt="icon-cap"
+                        width="20rem"
+                        height="auto"
+                      />
                     </a>
-                    </div>
-                </div>                
+                  </div>
+                </div>
               </div>
-            </div>            
+            </div>
           </div>
           <!-- Character 1 END -->
 
@@ -210,11 +326,15 @@
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./assets/img/ironman.png" class="img-fluid rounded-circle w-50" alt="iron man">
+                <img
+                  src="./assets/img/ironman.png"
+                  class="img-fluid rounded-circle w-50"
+                  alt="iron man"
+                />
                 <h4>Iron Man</h4>
                 <h5>Tony Stark</h5>
                 <div class="d-flex flex-row justify-content-center gap-3">
-                  <div >
+                  <div>
                     <a href="https://www.facebook.com/ironman/" target="_blank">
                       <i class="bi bi-facebook"></i>
                     </a>
@@ -225,64 +345,93 @@
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.instagram.com/marvels.iron.man" target="_blank">
-                    <i class="bi bi-instagram"></i>
+                    <a
+                      href="https://www.instagram.com/marvels.iron.man"
+                      target="_blank"
+                    >
+                      <i class="bi bi-instagram"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.marvel.com/characters/iron-man-tony-stark" ><img src="./assets/img/ironEmoji (1).png" alt="icon-cap" width="20rem" height="auto">
+                    <a
+                      href="https://www.marvel.com/characters/iron-man-tony-stark"
+                      ><img
+                        src="./assets/img/ironEmoji (1).png"
+                        alt="icon-cap"
+                        width="20rem"
+                        height="auto"
+                      />
                     </a>
-                    </div>
-                </div>                
+                  </div>
+                </div>
               </div>
-            </div>            
+            </div>
           </div>
           <!-- Character 2 END -->
-
 
           <!-- Character 3-->
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./assets/img/thor.png" class="img-fluid rounded-circle w-50" alt="captain">
+                <img
+                  src="./assets/img/thor.png"
+                  class="img-fluid rounded-circle w-50"
+                  alt="captain"
+                />
                 <h4>Thor</h4>
                 <h5>Thor Odinson</h5>
                 <div class="d-flex flex-row justify-content-center gap-3">
-                  <div >
+                  <div>
                     <a href="https://es-la.facebook.com/Thor/" target="_blank">
                       <i class="bi bi-facebook"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://twitter.com/thorofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <a
+                      href="https://twitter.com/thorofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                      target="_blank"
+                    >
                       <i class="bi bi-twitter"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.instagram.com/thorofficial/?hl=es" target="_blank">
-                    <i class="bi bi-instagram"></i>
+                    <a
+                      href="https://www.instagram.com/thorofficial/?hl=es"
+                      target="_blank"
+                    >
+                      <i class="bi bi-instagram"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.marvel.com/characters/thor-thor-odinson" ><img src="./assets/img/thoremoji.png" alt="icon-cap" width="20rem" height="auto">
+                    <a
+                      href="https://www.marvel.com/characters/thor-thor-odinson"
+                      ><img
+                        src="./assets/img/thoremoji.png"
+                        alt="icon-cap"
+                        width="20rem"
+                        height="auto"
+                      />
                     </a>
-                    </div>
-                </div>                
+                  </div>
+                </div>
               </div>
-            </div>            
+            </div>
           </div>
           <!-- Character 3 END -->
 
-
-          <!-- Character 4 -->          
+          <!-- Character 4 -->
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./assets/img/hulk3.png" class="img-fluid rounded-circle w-50" alt="captain">
+                <img
+                  src="./assets/img/hulk3.png"
+                  class="img-fluid rounded-circle w-50"
+                  alt="captain"
+                />
                 <h4>Hulk</h4>
                 <h5>Bruce Banner</h5>
                 <div class="d-flex flex-row justify-content-center gap-3">
-                  <div >
+                  <div>
                     <a href="https://es-la.facebook.com/Hulk/" target="_blank">
                       <i class="bi bi-facebook"></i>
                     </a>
@@ -293,20 +442,29 @@
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.instagram.com/the_hulk_official/?hl=es" target="_blank">
-                    <i class="bi bi-instagram"></i>
+                    <a
+                      href="https://www.instagram.com/the_hulk_official/?hl=es"
+                      target="_blank"
+                    >
+                      <i class="bi bi-instagram"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.marvel.com/characters/hulk-bruce-banner" ><img src="./assets/img/hulkEmoji.jpg" alt="icon-cap" width="20rem" height="auto">
+                    <a
+                      href="https://www.marvel.com/characters/hulk-bruce-banner"
+                      ><img
+                        src="./assets/img/hulkEmoji.jpg"
+                        alt="icon-cap"
+                        width="20rem"
+                        height="auto"
+                      />
                     </a>
-                    </div>
-                </div>                
+                  </div>
+                </div>
               </div>
-            </div>            
+            </div>
           </div>
           <!-- Character 4 END -->
-
         </div>
       </div>
     </section>
@@ -323,47 +481,72 @@
               <span class="input-group-text" id="basic-addon1">
                 <i class="bi bi-person-bounding-box"></i>
               </span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
             </div>
             <div class="input-group mb-3">
               <span class="input-group-text" id="basic-addon1">
                 <i class="bi bi-envelope-paper"></i>
               </span>
-              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                aria-describedby="basic-addon1"
+              />
             </div>
             <div class="input-group">
               <span class="input-group-text">
                 <i class="bi bi-pen"></i>
               </span>
-              <textarea class="form-control" aria-label="Your message" placeholder="Your message here" rows="7"></textarea>
+              <textarea
+                class="form-control"
+                aria-label="Your message"
+                placeholder="Your message here"
+                rows="7"
+              ></textarea>
             </div>
-  
           </div>
           <div class="col-md-5">
-            <img src="./assets/img/logoTexto.png" alt="LogoText" width="50%">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12090.749290970689!2d-73.99262090015303!3d40.74690522725678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a83b7d9cf9%3A0xebc46eea51cad42a!2sTorre%20de%20los%20Avengers!5e0!3m2!1ses!2sco!4v1668633255411!5m2!1ses!2sco" width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="./assets/img/logoTexto.png" alt="LogoText" width="50%" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12090.749290970689!2d-73.99262090015303!3d40.74690522725678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a83b7d9cf9%3A0xebc46eea51cad42a!2sTorre%20de%20los%20Avengers!5e0!3m2!1ses!2sco!4v1668633255411!5m2!1ses!2sco"
+              width="100%"
+              height="260"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-
         </div>
       </div>
     </section>
     <!-- End Contact-->
     <footer class="py-5">
       <div id="ese" class="text-center">
-      <p class="text-center text-white">
-        Created by <a href="mailto:mauricioserna123@gmail.com">andreshserna &copy; 2022</a>
-      </p>
-      <a href="https://www.linkedin.com/in/amhs03/" target="_blank"><i id="linked" class="bi bi-linkedin"></i></a>
-    </div>
+        <p class="text-center text-white">
+          Created by
+          <a href="mailto:mauricioserna123@gmail.com"
+            >andreshserna &copy; 2022</a
+          >
+        </p>
+        <a href="https://www.linkedin.com/in/amhs03/" target="_blank"
+          ><i id="linked" class="bi bi-linkedin"></i
+        ></a>
+      </div>
     </footer>
 
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

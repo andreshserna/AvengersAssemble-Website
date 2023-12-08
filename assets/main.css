@@ -26,6 +26,47 @@
     grid-column: 1/9;
 }
 
+.texto p {
+    font-family: 'DNIBlack';
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra al texto */
+    animation: glow 2s ease-in-out infinite alternate; /* Animación de destello */
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    to {
+        text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.8); /* Cambio de sombra */
+    }
+}
+
+.texto button.btn-danger {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #FF4500; /* Cambio de color */
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.texto button.btn-danger:hover {
+    transform: scale(1.1); /* Efecto al hacer hover */
+    box-shadow: 0px 0px 15px 5px rgba(255,69,0,0.75); /* Sombra al hacer hover */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
 #overlay {
     grid-column: 1/9;
     grid-row: 1/9;
